@@ -17,7 +17,7 @@ public class MyServlet extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+        System.out.println("处理 Get 请求");
     }
 
     /**
@@ -29,6 +29,6 @@ public class MyServlet extends HttpServlet {
      */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+        System.out.println("处理 POST 请求");
     }
 }
